@@ -1,0 +1,31 @@
+.container {
+    margin: 20px auto;
+    width: 800px;
+    padding: 10px;      
+}
+table, th, td, tr {
+    border: 1px solid black;
+    }
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+table {
+    width: 714px;
+    border-collapse: collapse;
+}
+
+.head {
+    color: white;
+    background-color: rgb(44, 43, 43);
+    
+}
+
+.headTitle {
+    border: 1px solid black;
+
+}
+
+.tansRow:nth-child(even) {
+    background-color: gray;
+}
